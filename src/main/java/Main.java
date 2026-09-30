@@ -17,5 +17,9 @@ public class Main {
         var r2 = new Geometry.Rectangle(10, 20);
         System.out.println(Utils.comparePerimeter(r1, r2));
         System.out.println(Utils.compareArea(r1, r2));
+
+        var cube1 = new ThreeDimensional.Cube(10);
+        System.out.println("Объем куба: " + cube1.volume());
+        System.out.println("Площадь куба: " + cube1.surfaceArea());
     }
 }

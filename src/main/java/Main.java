@@ -13,5 +13,8 @@ public class Main {
         System.out.println("Периметр треугольника: " + triangle.perimeter());
         System.out.println("Площадь треугольника: " + triangle.area());
 
+        var r1 = new Geometry.Rectangle(10, 20);
+        var r2 = new Geometry.Rectangle(10, 20);
+        System.out.println(Utils.comparePerimeter(r1, r2));
     }
 }

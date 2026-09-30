@@ -16,5 +16,6 @@ public class Main {
         var r1 = new Geometry.Rectangle(10, 20);
         var r2 = new Geometry.Rectangle(10, 20);
         System.out.println(Utils.comparePerimeter(r1, r2));
+        System.out.println(Utils.compareArea(r1, r2));
     }
 }
